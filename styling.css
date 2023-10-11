@@ -1,0 +1,102 @@
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    /* background-image: url("images/imgs/4.png");
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-size: cover; */
+     
+     
+    
+}
+
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+   border-radius: 6px;
+    
+}
+
+
+.login-form {
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 30px;
+    text-align: center;
+    box-shadow: 10px 20px 25px black;
+    max-width: 400px; 
+    width: 100%; 
+    border-radius: 6px;
+    
+}
+
+
+.login-form h2 {
+    margin-bottom: 20px;
+}
+
+
+.input-container {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.input-container label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input-container input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+
+button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #275b92;
+    color: white;
+}
+
+
+.error-message {
+    color: red;
+    margin-top: 10px;
+}
+#adminlogo{
+    height: 100px;
+    width: 100px;
+}
+span{
+    color: red;
+   
+
+}
+
+
+#email{
+    height: 30px;
+}
+#password{
+    height: 30px;
+}
+#submitbtn{
+    width: 80px;
+    height: 35px;
+}
