@@ -1,0 +1,11 @@
+.btn-primary {
+    border-radius: 8px;
+    height: 50px;
+    width: 100px;
+    cursor: pointer;
+}
+
+#camera {
+    height: 100px;
+    width: 100px;
+}

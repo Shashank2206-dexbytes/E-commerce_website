@@ -1,0 +1,49 @@
+
+.input-group  {
+    width: 368px;
+}
+.btn-light{
+    border:1px solid black;
+}
+.btn-primary{
+    float: right;
+}
+.error{
+color: red;
+width: 100%;
+}
+
+.image_container{
+    height: 80px;
+    width: 120px;
+    border-radius:6px;
+    overflow:hidden;
+    /* margin:10px; */
+
+}
+.image_container img{
+    height:100%;
+    /* width:auto; */
+    object-fit:cover;
+}
+.image_container span{
+    top:-8px;
+    right:30px;
+    color:red;
+    font-size:28px;
+    font-weight:normal;
+    cursor: pointer;
+}
+
+.justify-content-start{
+    display:flex;
+    flex-direction:row;
+}
+.multipleimage{
+    display:flex;
+    flex-direction:row;
+}
+
+#bulk01{
+    margin-right: 10px;
+  }

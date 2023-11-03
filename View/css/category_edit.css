@@ -1,0 +1,12 @@
+.input-group  {
+    width: 368px;
+  }
+  .btn-light{
+    border:1px solid black;
+  }
+  .btn-primary{
+    float: right;
+  }
+  #selectimage{
+    width: 360px;
+}
